@@ -57,9 +57,9 @@ function draw(){
  rect(0,0,20,700);
     
     if(scoreRightWrist > 0.2) {
-        fill("limegreen");
-        stroke("limegreen");
-        circle(rightWristX, rightWristY, 15);
+        fill("#FF0000");
+        stroke("#FF0000");
+        circle(rightWristX, rightWristY, 20);
     }
  
    //funtion paddleInCanvas call 
